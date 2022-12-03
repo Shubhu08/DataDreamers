@@ -1,0 +1,745 @@
+Continent,Time,WarType,n
+Northern America,1990,Foreign_Invasion_War,0
+Northern America,1990,Civil_War,6
+Northern America,1990,Inter_country_War,0
+Northern America,1990,Imperial_Invasion_War,0
+Northern America,1991,Foreign_Invasion_War,0
+Northern America,1991,Civil_War,5
+Northern America,1991,Inter_country_War,0
+Northern America,1991,Imperial_Invasion_War,0
+Northern America,1992,Foreign_Invasion_War,0
+Northern America,1992,Civil_War,4
+Northern America,1992,Inter_country_War,0
+Northern America,1992,Imperial_Invasion_War,0
+Northern America,1993,Foreign_Invasion_War,0
+Northern America,1993,Civil_War,3
+Northern America,1993,Inter_country_War,0
+Northern America,1993,Imperial_Invasion_War,0
+Northern America,1994,Foreign_Invasion_War,0
+Northern America,1994,Civil_War,4
+Northern America,1994,Inter_country_War,0
+Northern America,1994,Imperial_Invasion_War,0
+Northern America,1995,Foreign_Invasion_War,0
+Northern America,1995,Civil_War,3
+Northern America,1995,Inter_country_War,1
+Northern America,1995,Imperial_Invasion_War,0
+Northern America,1996,Foreign_Invasion_War,0
+Northern America,1996,Civil_War,3
+Northern America,1996,Inter_country_War,0
+Northern America,1996,Imperial_Invasion_War,0
+Northern America,1997,Foreign_Invasion_War,0
+Northern America,1997,Civil_War,2
+Northern America,1997,Inter_country_War,0
+Northern America,1997,Imperial_Invasion_War,0
+Northern America,1998,Foreign_Invasion_War,0
+Northern America,1998,Civil_War,2
+Northern America,1998,Inter_country_War,0
+Northern America,1998,Imperial_Invasion_War,0
+Northern America,1999,Foreign_Invasion_War,0
+Northern America,1999,Civil_War,2
+Northern America,1999,Inter_country_War,0
+Northern America,1999,Imperial_Invasion_War,0
+Northern America,2000,Foreign_Invasion_War,0
+Northern America,2000,Civil_War,1
+Northern America,2000,Inter_country_War,0
+Northern America,2000,Imperial_Invasion_War,0
+Northern America,2001,Foreign_Invasion_War,1
+Northern America,2001,Civil_War,1
+Northern America,2001,Inter_country_War,1
+Northern America,2001,Imperial_Invasion_War,0
+Northern America,2002,Foreign_Invasion_War,1
+Northern America,2002,Civil_War,1
+Northern America,2002,Inter_country_War,0
+Northern America,2002,Imperial_Invasion_War,0
+Northern America,2003,Foreign_Invasion_War,1
+Northern America,2003,Civil_War,1
+Northern America,2003,Inter_country_War,1
+Northern America,2003,Imperial_Invasion_War,0
+Northern America,2004,Foreign_Invasion_War,1
+Northern America,2004,Civil_War,2
+Northern America,2004,Inter_country_War,0
+Northern America,2004,Imperial_Invasion_War,0
+Northern America,2005,Foreign_Invasion_War,1
+Northern America,2005,Civil_War,1
+Northern America,2005,Inter_country_War,0
+Northern America,2005,Imperial_Invasion_War,0
+Northern America,2006,Foreign_Invasion_War,1
+Northern America,2006,Civil_War,1
+Northern America,2006,Inter_country_War,0
+Northern America,2006,Imperial_Invasion_War,0
+Northern America,2007,Foreign_Invasion_War,1
+Northern America,2007,Civil_War,2
+Northern America,2007,Inter_country_War,0
+Northern America,2007,Imperial_Invasion_War,0
+Northern America,2008,Foreign_Invasion_War,1
+Northern America,2008,Civil_War,2
+Northern America,2008,Inter_country_War,0
+Northern America,2008,Imperial_Invasion_War,0
+Northern America,2009,Foreign_Invasion_War,1
+Northern America,2009,Civil_War,2
+Northern America,2009,Inter_country_War,0
+Northern America,2009,Imperial_Invasion_War,0
+Northern America,2010,Foreign_Invasion_War,1
+Northern America,2010,Civil_War,2
+Northern America,2010,Inter_country_War,0
+Northern America,2010,Imperial_Invasion_War,0
+Northern America,2011,Foreign_Invasion_War,1
+Northern America,2011,Civil_War,1
+Northern America,2011,Inter_country_War,0
+Northern America,2011,Imperial_Invasion_War,0
+Northern America,2012,Foreign_Invasion_War,1
+Northern America,2012,Civil_War,1
+Northern America,2012,Inter_country_War,0
+Northern America,2012,Imperial_Invasion_War,0
+Northern America,2013,Foreign_Invasion_War,1
+Northern America,2013,Civil_War,1
+Northern America,2013,Inter_country_War,0
+Northern America,2013,Imperial_Invasion_War,0
+Northern America,2014,Foreign_Invasion_War,1
+Northern America,2014,Civil_War,1
+Northern America,2014,Inter_country_War,0
+Northern America,2014,Imperial_Invasion_War,0
+Northern America,2015,Foreign_Invasion_War,1
+Northern America,2015,Civil_War,1
+Northern America,2015,Inter_country_War,0
+Northern America,2015,Imperial_Invasion_War,0
+Northern America,2016,Foreign_Invasion_War,1
+Northern America,2016,Civil_War,1
+Northern America,2016,Inter_country_War,0
+Northern America,2016,Imperial_Invasion_War,0
+Northern America,2017,Foreign_Invasion_War,1
+Northern America,2017,Civil_War,0
+Northern America,2017,Inter_country_War,0
+Northern America,2017,Imperial_Invasion_War,0
+Northern America,2018,Foreign_Invasion_War,0
+Northern America,2018,Civil_War,1
+Northern America,2018,Inter_country_War,0
+Northern America,2018,Imperial_Invasion_War,0
+Northern America,2019,Foreign_Invasion_War,1
+Northern America,2019,Civil_War,1
+Northern America,2019,Inter_country_War,0
+Northern America,2019,Imperial_Invasion_War,0
+Northern America,2020,Foreign_Invasion_War,0
+Northern America,2020,Civil_War,1
+Northern America,2020,Inter_country_War,0
+Northern America,2020,Imperial_Invasion_War,0
+Latin America and the Caribbean,1990,Foreign_Invasion_War,3
+Latin America and the Caribbean,1990,Civil_War,44
+Latin America and the Caribbean,1990,Inter_country_War,2
+Latin America and the Caribbean,1990,Imperial_Invasion_War,0
+Latin America and the Caribbean,1991,Foreign_Invasion_War,2
+Latin America and the Caribbean,1991,Civil_War,49
+Latin America and the Caribbean,1991,Inter_country_War,2
+Latin America and the Caribbean,1991,Imperial_Invasion_War,0
+Latin America and the Caribbean,1992,Foreign_Invasion_War,5
+Latin America and the Caribbean,1992,Civil_War,44
+Latin America and the Caribbean,1992,Inter_country_War,1
+Latin America and the Caribbean,1992,Imperial_Invasion_War,0
+Latin America and the Caribbean,1993,Foreign_Invasion_War,6
+Latin America and the Caribbean,1993,Civil_War,37
+Latin America and the Caribbean,1993,Inter_country_War,0
+Latin America and the Caribbean,1993,Imperial_Invasion_War,0
+Latin America and the Caribbean,1994,Foreign_Invasion_War,2
+Latin America and the Caribbean,1994,Civil_War,46
+Latin America and the Caribbean,1994,Inter_country_War,1
+Latin America and the Caribbean,1994,Imperial_Invasion_War,0
+Latin America and the Caribbean,1995,Foreign_Invasion_War,2
+Latin America and the Caribbean,1995,Civil_War,39
+Latin America and the Caribbean,1995,Inter_country_War,1
+Latin America and the Caribbean,1995,Imperial_Invasion_War,0
+Latin America and the Caribbean,1996,Foreign_Invasion_War,3
+Latin America and the Caribbean,1996,Civil_War,36
+Latin America and the Caribbean,1996,Inter_country_War,2
+Latin America and the Caribbean,1996,Imperial_Invasion_War,0
+Latin America and the Caribbean,1997,Foreign_Invasion_War,4
+Latin America and the Caribbean,1997,Civil_War,34
+Latin America and the Caribbean,1997,Inter_country_War,1
+Latin America and the Caribbean,1997,Imperial_Invasion_War,0
+Latin America and the Caribbean,1998,Foreign_Invasion_War,6
+Latin America and the Caribbean,1998,Civil_War,32
+Latin America and the Caribbean,1998,Inter_country_War,2
+Latin America and the Caribbean,1998,Imperial_Invasion_War,0
+Latin America and the Caribbean,1999,Foreign_Invasion_War,6
+Latin America and the Caribbean,1999,Civil_War,32
+Latin America and the Caribbean,1999,Inter_country_War,2
+Latin America and the Caribbean,1999,Imperial_Invasion_War,0
+Latin America and the Caribbean,2000,Foreign_Invasion_War,4
+Latin America and the Caribbean,2000,Civil_War,32
+Latin America and the Caribbean,2000,Inter_country_War,2
+Latin America and the Caribbean,2000,Imperial_Invasion_War,0
+Latin America and the Caribbean,2001,Foreign_Invasion_War,5
+Latin America and the Caribbean,2001,Civil_War,32
+Latin America and the Caribbean,2001,Inter_country_War,2
+Latin America and the Caribbean,2001,Imperial_Invasion_War,0
+Latin America and the Caribbean,2002,Foreign_Invasion_War,3
+Latin America and the Caribbean,2002,Civil_War,29
+Latin America and the Caribbean,2002,Inter_country_War,1
+Latin America and the Caribbean,2002,Imperial_Invasion_War,0
+Latin America and the Caribbean,2003,Foreign_Invasion_War,3
+Latin America and the Caribbean,2003,Civil_War,28
+Latin America and the Caribbean,2003,Inter_country_War,2
+Latin America and the Caribbean,2003,Imperial_Invasion_War,0
+Latin America and the Caribbean,2004,Foreign_Invasion_War,4
+Latin America and the Caribbean,2004,Civil_War,29
+Latin America and the Caribbean,2004,Inter_country_War,0
+Latin America and the Caribbean,2004,Imperial_Invasion_War,0
+Latin America and the Caribbean,2005,Foreign_Invasion_War,5
+Latin America and the Caribbean,2005,Civil_War,28
+Latin America and the Caribbean,2005,Inter_country_War,0
+Latin America and the Caribbean,2005,Imperial_Invasion_War,0
+Latin America and the Caribbean,2006,Foreign_Invasion_War,5
+Latin America and the Caribbean,2006,Civil_War,28
+Latin America and the Caribbean,2006,Inter_country_War,0
+Latin America and the Caribbean,2006,Imperial_Invasion_War,0
+Latin America and the Caribbean,2007,Foreign_Invasion_War,4
+Latin America and the Caribbean,2007,Civil_War,31
+Latin America and the Caribbean,2007,Inter_country_War,0
+Latin America and the Caribbean,2007,Imperial_Invasion_War,0
+Latin America and the Caribbean,2008,Foreign_Invasion_War,7
+Latin America and the Caribbean,2008,Civil_War,30
+Latin America and the Caribbean,2008,Inter_country_War,1
+Latin America and the Caribbean,2008,Imperial_Invasion_War,0
+Latin America and the Caribbean,2009,Foreign_Invasion_War,7
+Latin America and the Caribbean,2009,Civil_War,30
+Latin America and the Caribbean,2009,Inter_country_War,0
+Latin America and the Caribbean,2009,Imperial_Invasion_War,0
+Latin America and the Caribbean,2010,Foreign_Invasion_War,8
+Latin America and the Caribbean,2010,Civil_War,23
+Latin America and the Caribbean,2010,Inter_country_War,0
+Latin America and the Caribbean,2010,Imperial_Invasion_War,0
+Latin America and the Caribbean,2011,Foreign_Invasion_War,9
+Latin America and the Caribbean,2011,Civil_War,27
+Latin America and the Caribbean,2011,Inter_country_War,1
+Latin America and the Caribbean,2011,Imperial_Invasion_War,0
+Latin America and the Caribbean,2012,Foreign_Invasion_War,9
+Latin America and the Caribbean,2012,Civil_War,23
+Latin America and the Caribbean,2012,Inter_country_War,1
+Latin America and the Caribbean,2012,Imperial_Invasion_War,0
+Latin America and the Caribbean,2013,Foreign_Invasion_War,10
+Latin America and the Caribbean,2013,Civil_War,27
+Latin America and the Caribbean,2013,Inter_country_War,1
+Latin America and the Caribbean,2013,Imperial_Invasion_War,0
+Latin America and the Caribbean,2014,Foreign_Invasion_War,15
+Latin America and the Caribbean,2014,Civil_War,28
+Latin America and the Caribbean,2014,Inter_country_War,1
+Latin America and the Caribbean,2014,Imperial_Invasion_War,0
+Latin America and the Caribbean,2015,Foreign_Invasion_War,20
+Latin America and the Caribbean,2015,Civil_War,31
+Latin America and the Caribbean,2015,Inter_country_War,1
+Latin America and the Caribbean,2015,Imperial_Invasion_War,0
+Latin America and the Caribbean,2016,Foreign_Invasion_War,18
+Latin America and the Caribbean,2016,Civil_War,34
+Latin America and the Caribbean,2016,Inter_country_War,2
+Latin America and the Caribbean,2016,Imperial_Invasion_War,0
+Latin America and the Caribbean,2017,Foreign_Invasion_War,21
+Latin America and the Caribbean,2017,Civil_War,29
+Latin America and the Caribbean,2017,Inter_country_War,1
+Latin America and the Caribbean,2017,Imperial_Invasion_War,0
+Latin America and the Caribbean,2018,Foreign_Invasion_War,19
+Latin America and the Caribbean,2018,Civil_War,31
+Latin America and the Caribbean,2018,Inter_country_War,2
+Latin America and the Caribbean,2018,Imperial_Invasion_War,0
+Latin America and the Caribbean,2019,Foreign_Invasion_War,25
+Latin America and the Caribbean,2019,Civil_War,28
+Latin America and the Caribbean,2019,Inter_country_War,2
+Latin America and the Caribbean,2019,Imperial_Invasion_War,0
+Latin America and the Caribbean,2020,Foreign_Invasion_War,25
+Latin America and the Caribbean,2020,Civil_War,28
+Latin America and the Caribbean,2020,Inter_country_War,3
+Latin America and the Caribbean,2020,Imperial_Invasion_War,0
+Europe,1990,Foreign_Invasion_War,0
+Europe,1990,Civil_War,3
+Europe,1990,Inter_country_War,0
+Europe,1990,Imperial_Invasion_War,0
+Europe,1991,Foreign_Invasion_War,1
+Europe,1991,Civil_War,6
+Europe,1991,Inter_country_War,0
+Europe,1991,Imperial_Invasion_War,0
+Europe,1992,Foreign_Invasion_War,3
+Europe,1992,Civil_War,5
+Europe,1992,Inter_country_War,0
+Europe,1992,Imperial_Invasion_War,0
+Europe,1993,Foreign_Invasion_War,4
+Europe,1993,Civil_War,5
+Europe,1993,Inter_country_War,0
+Europe,1993,Imperial_Invasion_War,0
+Europe,1994,Foreign_Invasion_War,0
+Europe,1994,Civil_War,5
+Europe,1994,Inter_country_War,0
+Europe,1994,Imperial_Invasion_War,0
+Europe,1995,Foreign_Invasion_War,0
+Europe,1995,Civil_War,5
+Europe,1995,Inter_country_War,0
+Europe,1995,Imperial_Invasion_War,0
+Europe,1996,Foreign_Invasion_War,0
+Europe,1996,Civil_War,1
+Europe,1996,Inter_country_War,0
+Europe,1996,Imperial_Invasion_War,0
+Europe,1997,Foreign_Invasion_War,1
+Europe,1997,Civil_War,0
+Europe,1997,Inter_country_War,0
+Europe,1997,Imperial_Invasion_War,0
+Europe,1998,Foreign_Invasion_War,1
+Europe,1998,Civil_War,2
+Europe,1998,Inter_country_War,0
+Europe,1998,Imperial_Invasion_War,0
+Europe,1999,Foreign_Invasion_War,1
+Europe,1999,Civil_War,2
+Europe,1999,Inter_country_War,0
+Europe,1999,Imperial_Invasion_War,0
+Europe,2000,Foreign_Invasion_War,0
+Europe,2000,Civil_War,1
+Europe,2000,Inter_country_War,0
+Europe,2000,Imperial_Invasion_War,0
+Europe,2001,Foreign_Invasion_War,0
+Europe,2001,Civil_War,2
+Europe,2001,Inter_country_War,1
+Europe,2001,Imperial_Invasion_War,0
+Europe,2002,Foreign_Invasion_War,0
+Europe,2002,Civil_War,1
+Europe,2002,Inter_country_War,0
+Europe,2002,Imperial_Invasion_War,0
+Europe,2003,Foreign_Invasion_War,0
+Europe,2003,Civil_War,1
+Europe,2003,Inter_country_War,1
+Europe,2003,Imperial_Invasion_War,0
+Europe,2004,Foreign_Invasion_War,0
+Europe,2004,Civil_War,2
+Europe,2004,Inter_country_War,0
+Europe,2004,Imperial_Invasion_War,0
+Europe,2005,Foreign_Invasion_War,1
+Europe,2005,Civil_War,1
+Europe,2005,Inter_country_War,0
+Europe,2005,Imperial_Invasion_War,0
+Europe,2006,Foreign_Invasion_War,0
+Europe,2006,Civil_War,1
+Europe,2006,Inter_country_War,0
+Europe,2006,Imperial_Invasion_War,0
+Europe,2007,Foreign_Invasion_War,0
+Europe,2007,Civil_War,2
+Europe,2007,Inter_country_War,0
+Europe,2007,Imperial_Invasion_War,0
+Europe,2008,Foreign_Invasion_War,2
+Europe,2008,Civil_War,1
+Europe,2008,Inter_country_War,0
+Europe,2008,Imperial_Invasion_War,0
+Europe,2009,Foreign_Invasion_War,0
+Europe,2009,Civil_War,1
+Europe,2009,Inter_country_War,0
+Europe,2009,Imperial_Invasion_War,0
+Europe,2010,Foreign_Invasion_War,0
+Europe,2010,Civil_War,1
+Europe,2010,Inter_country_War,0
+Europe,2010,Imperial_Invasion_War,0
+Europe,2011,Foreign_Invasion_War,0
+Europe,2011,Civil_War,1
+Europe,2011,Inter_country_War,0
+Europe,2011,Imperial_Invasion_War,0
+Europe,2012,Foreign_Invasion_War,1
+Europe,2012,Civil_War,1
+Europe,2012,Inter_country_War,0
+Europe,2012,Imperial_Invasion_War,0
+Europe,2013,Foreign_Invasion_War,0
+Europe,2013,Civil_War,1
+Europe,2013,Inter_country_War,0
+Europe,2013,Imperial_Invasion_War,0
+Europe,2014,Foreign_Invasion_War,4
+Europe,2014,Civil_War,2
+Europe,2014,Inter_country_War,0
+Europe,2014,Imperial_Invasion_War,0
+Europe,2015,Foreign_Invasion_War,2
+Europe,2015,Civil_War,2
+Europe,2015,Inter_country_War,0
+Europe,2015,Imperial_Invasion_War,0
+Europe,2016,Foreign_Invasion_War,2
+Europe,2016,Civil_War,1
+Europe,2016,Inter_country_War,0
+Europe,2016,Imperial_Invasion_War,0
+Europe,2017,Foreign_Invasion_War,2
+Europe,2017,Civil_War,1
+Europe,2017,Inter_country_War,0
+Europe,2017,Imperial_Invasion_War,0
+Europe,2018,Foreign_Invasion_War,1
+Europe,2018,Civil_War,1
+Europe,2018,Inter_country_War,0
+Europe,2018,Imperial_Invasion_War,0
+Europe,2019,Foreign_Invasion_War,1
+Europe,2019,Civil_War,1
+Europe,2019,Inter_country_War,0
+Europe,2019,Imperial_Invasion_War,0
+Europe,2020,Foreign_Invasion_War,2
+Europe,2020,Civil_War,1
+Europe,2020,Inter_country_War,0
+Europe,2020,Imperial_Invasion_War,0
+Asia,1990,Foreign_Invasion_War,2
+Asia,1990,Civil_War,9
+Asia,1990,Inter_country_War,2
+Asia,1990,Imperial_Invasion_War,0
+Asia,1990,Foreign_Invasion_War,0
+Asia,1990,Civil_War,1
+Asia,1990,Inter_country_War,0
+Asia,1990,Imperial_Invasion_War,0
+Asia,1991,Foreign_Invasion_War,0
+Asia,1991,Civil_War,2
+Asia,1991,Inter_country_War,0
+Asia,1991,Imperial_Invasion_War,0
+Asia,1991,Foreign_Invasion_War,1
+Asia,1991,Civil_War,2
+Asia,1991,Inter_country_War,0
+Asia,1991,Imperial_Invasion_War,0
+Asia,1992,Foreign_Invasion_War,1
+Asia,1992,Civil_War,3
+Asia,1992,Inter_country_War,0
+Asia,1992,Imperial_Invasion_War,0
+Asia,1992,Foreign_Invasion_War,1
+Asia,1992,Civil_War,2
+Asia,1992,Inter_country_War,0
+Asia,1992,Imperial_Invasion_War,1
+Asia,1993,Foreign_Invasion_War,1
+Asia,1993,Civil_War,2
+Asia,1993,Inter_country_War,0
+Asia,1993,Imperial_Invasion_War,1
+Asia,1993,Foreign_Invasion_War,1
+Asia,1993,Civil_War,4
+Asia,1993,Inter_country_War,0
+Asia,1993,Imperial_Invasion_War,1
+Asia,1994,Foreign_Invasion_War,1
+Asia,1994,Civil_War,3
+Asia,1994,Inter_country_War,3
+Asia,1994,Imperial_Invasion_War,1
+Asia,1994,Foreign_Invasion_War,1
+Asia,1994,Civil_War,3
+Asia,1994,Inter_country_War,0
+Asia,1994,Imperial_Invasion_War,0
+Asia,1995,Foreign_Invasion_War,2
+Asia,1995,Civil_War,2
+Asia,1995,Inter_country_War,1
+Asia,1995,Imperial_Invasion_War,0
+Asia,1995,Foreign_Invasion_War,2
+Asia,1995,Civil_War,2
+Asia,1995,Inter_country_War,1
+Asia,1995,Imperial_Invasion_War,0
+Asia,1996,Foreign_Invasion_War,1
+Asia,1996,Civil_War,1
+Asia,1996,Inter_country_War,0
+Asia,1996,Imperial_Invasion_War,0
+Asia,1996,Foreign_Invasion_War,1
+Asia,1996,Civil_War,1
+Asia,1996,Inter_country_War,1
+Asia,1996,Imperial_Invasion_War,0
+Asia,1997,Foreign_Invasion_War,1
+Asia,1997,Civil_War,2
+Asia,1997,Inter_country_War,2
+Asia,1997,Imperial_Invasion_War,0
+Asia,1997,Foreign_Invasion_War,1
+Asia,1997,Civil_War,2
+Asia,1997,Inter_country_War,2
+Asia,1997,Imperial_Invasion_War,0
+Asia,1998,Foreign_Invasion_War,1
+Asia,1998,Civil_War,3
+Asia,1998,Inter_country_War,0
+Asia,1998,Imperial_Invasion_War,0
+Asia,1998,Foreign_Invasion_War,0
+Asia,1998,Civil_War,3
+Asia,1998,Inter_country_War,0
+Asia,1998,Imperial_Invasion_War,0
+Asia,1999,Foreign_Invasion_War,0
+Asia,1999,Civil_War,2
+Asia,1999,Inter_country_War,0
+Asia,1999,Imperial_Invasion_War,0
+Asia,1999,Foreign_Invasion_War,0
+Asia,1999,Civil_War,2
+Asia,1999,Inter_country_War,0
+Asia,1999,Imperial_Invasion_War,0
+Asia,2000,Foreign_Invasion_War,0
+Asia,2000,Civil_War,8
+Asia,2000,Inter_country_War,1
+Asia,2000,Imperial_Invasion_War,0
+Asia,2000,Foreign_Invasion_War,0
+Asia,2000,Civil_War,7
+Asia,2000,Inter_country_War,1
+Asia,2000,Imperial_Invasion_War,0
+Asia,2001,Foreign_Invasion_War,0
+Asia,2001,Civil_War,6
+Asia,2001,Inter_country_War,1
+Asia,2001,Imperial_Invasion_War,0
+Asia,2001,Foreign_Invasion_War,1
+Asia,2001,Civil_War,7
+Asia,2001,Inter_country_War,1
+Asia,2001,Imperial_Invasion_War,0
+Asia,2002,Foreign_Invasion_War,1
+Asia,2002,Civil_War,4
+Asia,2002,Inter_country_War,1
+Asia,2002,Imperial_Invasion_War,0
+Asia,2002,Foreign_Invasion_War,1
+Asia,2002,Civil_War,5
+Asia,2002,Inter_country_War,1
+Asia,2002,Imperial_Invasion_War,0
+Asia,2003,Foreign_Invasion_War,0
+Asia,2003,Civil_War,5
+Asia,2003,Inter_country_War,1
+Asia,2003,Imperial_Invasion_War,0
+Asia,2003,Foreign_Invasion_War,0
+Asia,2003,Civil_War,7
+Asia,2003,Inter_country_War,1
+Asia,2003,Imperial_Invasion_War,0
+Asia,2004,Foreign_Invasion_War,0
+Asia,2004,Civil_War,6
+Asia,2004,Inter_country_War,1
+Asia,2004,Imperial_Invasion_War,0
+Asia,2004,Foreign_Invasion_War,0
+Asia,2004,Civil_War,5
+Asia,2004,Inter_country_War,1
+Asia,2004,Imperial_Invasion_War,0
+Asia,2005,Foreign_Invasion_War,1
+Asia,2005,Civil_War,3
+Asia,2005,Inter_country_War,0
+Asia,2005,Imperial_Invasion_War,0
+Asia,2005,Foreign_Invasion_War,1
+Asia,2005,Civil_War,5
+Asia,2005,Inter_country_War,1
+Asia,2005,Imperial_Invasion_War,0
+Asia,2006,Foreign_Invasion_War,0
+Asia,2006,Civil_War,7
+Asia,2006,Inter_country_War,1
+Asia,2006,Imperial_Invasion_War,0
+Asia,2006,Foreign_Invasion_War,0
+Asia,2006,Civil_War,6
+Asia,2006,Inter_country_War,0
+Asia,2006,Imperial_Invasion_War,0
+Asia,2007,Foreign_Invasion_War,0
+Asia,2007,Civil_War,7
+Asia,2007,Inter_country_War,0
+Asia,2007,Imperial_Invasion_War,0
+Asia,2007,Foreign_Invasion_War,0
+Asia,2007,Civil_War,6
+Asia,2007,Inter_country_War,0
+Asia,2007,Imperial_Invasion_War,0
+Asia,2008,Foreign_Invasion_War,0
+Asia,2008,Civil_War,7
+Asia,2008,Inter_country_War,0
+Asia,2008,Imperial_Invasion_War,0
+Asia,2008,Foreign_Invasion_War,0
+Asia,2008,Civil_War,7
+Asia,2008,Inter_country_War,0
+Asia,2008,Imperial_Invasion_War,0
+Asia,2009,Foreign_Invasion_War,0
+Asia,2009,Civil_War,4
+Asia,2009,Inter_country_War,0
+Asia,2009,Imperial_Invasion_War,0
+Asia,2009,Foreign_Invasion_War,0
+Asia,2009,Civil_War,3
+Asia,2009,Inter_country_War,0
+Asia,2009,Imperial_Invasion_War,0
+Asia,2010,Foreign_Invasion_War,0
+Asia,2010,Civil_War,3
+Asia,2010,Inter_country_War,0
+Asia,2010,Imperial_Invasion_War,0
+Asia,2010,Foreign_Invasion_War,0
+Asia,2010,Civil_War,3
+Asia,2010,Inter_country_War,0
+Asia,2010,Imperial_Invasion_War,0
+Asia,2011,Foreign_Invasion_War,0
+Asia,2011,Civil_War,3
+Asia,2011,Inter_country_War,0
+Asia,2011,Imperial_Invasion_War,0
+Asia,2011,Foreign_Invasion_War,0
+Asia,2011,Civil_War,2
+Asia,2011,Inter_country_War,0
+Asia,2011,Imperial_Invasion_War,0
+Asia,2012,Foreign_Invasion_War,0
+Asia,2012,Civil_War,2
+Asia,2012,Inter_country_War,1
+Asia,2012,Imperial_Invasion_War,0
+Asia,2012,Foreign_Invasion_War,1
+Asia,2012,Civil_War,2
+Asia,2012,Inter_country_War,0
+Asia,2012,Imperial_Invasion_War,0
+Asia,2013,Foreign_Invasion_War,1
+Asia,2013,Civil_War,4
+Asia,2013,Inter_country_War,0
+Asia,2013,Imperial_Invasion_War,0
+Asia,2013,Foreign_Invasion_War,1
+Asia,2013,Civil_War,4
+Asia,2013,Inter_country_War,0
+Asia,2013,Imperial_Invasion_War,0
+Asia,2014,Foreign_Invasion_War,1
+Asia,2014,Civil_War,3
+Asia,2014,Inter_country_War,0
+Asia,2014,Imperial_Invasion_War,0
+Asia,2014,Foreign_Invasion_War,1
+Asia,2014,Civil_War,3
+Asia,2014,Inter_country_War,0
+Asia,2014,Imperial_Invasion_War,0
+Asia,2015,Foreign_Invasion_War,2
+Asia,2015,Civil_War,3
+Asia,2015,Inter_country_War,0
+Asia,2015,Imperial_Invasion_War,0
+Asia,2015,Foreign_Invasion_War,2
+Asia,2015,Civil_War,3
+Asia,2015,Inter_country_War,0
+Asia,2015,Imperial_Invasion_War,0
+Asia,2016,Foreign_Invasion_War,2
+Asia,2016,Civil_War,4
+Asia,2016,Inter_country_War,0
+Asia,2016,Imperial_Invasion_War,0
+Asia,2016,Foreign_Invasion_War,1
+Asia,2016,Civil_War,5
+Asia,2016,Inter_country_War,0
+Asia,2016,Imperial_Invasion_War,0
+Asia,2017,Foreign_Invasion_War,1
+Asia,2017,Civil_War,5
+Asia,2017,Inter_country_War,0
+Asia,2017,Imperial_Invasion_War,0
+Asia,2017,Foreign_Invasion_War,2
+Asia,2017,Civil_War,6
+Asia,2017,Inter_country_War,0
+Asia,2017,Imperial_Invasion_War,0
+Asia,2018,Foreign_Invasion_War,4
+Asia,2018,Civil_War,6
+Asia,2018,Inter_country_War,0
+Asia,2018,Imperial_Invasion_War,0
+Asia,2018,Foreign_Invasion_War,4
+Asia,2018,Civil_War,7
+Asia,2018,Inter_country_War,0
+Asia,2018,Imperial_Invasion_War,0
+Asia,2019,Foreign_Invasion_War,4
+Asia,2019,Civil_War,7
+Asia,2019,Inter_country_War,0
+Asia,2019,Imperial_Invasion_War,0
+Asia,2019,Foreign_Invasion_War,4
+Asia,2019,Civil_War,7
+Asia,2019,Inter_country_War,1
+Asia,2019,Imperial_Invasion_War,0
+Asia,2020,Foreign_Invasion_War,4
+Asia,2020,Civil_War,5
+Asia,2020,Inter_country_War,1
+Asia,2020,Imperial_Invasion_War,0
+Asia,2020,Foreign_Invasion_War,4
+Asia,2020,Civil_War,4
+Asia,2020,Inter_country_War,1
+Asia,2020,Imperial_Invasion_War,0
+Africa,1990,Foreign_Invasion_War,2
+Africa,1990,Civil_War,11
+Africa,1990,Inter_country_War,0
+Africa,1990,Imperial_Invasion_War,0
+Africa,1991,Foreign_Invasion_War,1
+Africa,1991,Civil_War,17
+Africa,1991,Inter_country_War,0
+Africa,1991,Imperial_Invasion_War,0
+Africa,1992,Foreign_Invasion_War,1
+Africa,1992,Civil_War,14
+Africa,1992,Inter_country_War,0
+Africa,1992,Imperial_Invasion_War,0
+Africa,1993,Foreign_Invasion_War,1
+Africa,1993,Civil_War,10
+Africa,1993,Inter_country_War,0
+Africa,1993,Imperial_Invasion_War,0
+Africa,1994,Foreign_Invasion_War,1
+Africa,1994,Civil_War,14
+Africa,1994,Inter_country_War,0
+Africa,1994,Imperial_Invasion_War,0
+Africa,1995,Foreign_Invasion_War,1
+Africa,1995,Civil_War,10
+Africa,1995,Inter_country_War,0
+Africa,1995,Imperial_Invasion_War,0
+Africa,1996,Foreign_Invasion_War,2
+Africa,1996,Civil_War,9
+Africa,1996,Inter_country_War,1
+Africa,1996,Imperial_Invasion_War,0
+Africa,1997,Foreign_Invasion_War,3
+Africa,1997,Civil_War,11
+Africa,1997,Inter_country_War,0
+Africa,1997,Imperial_Invasion_War,0
+Africa,1998,Foreign_Invasion_War,5
+Africa,1998,Civil_War,11
+Africa,1998,Inter_country_War,1
+Africa,1998,Imperial_Invasion_War,0
+Africa,1999,Foreign_Invasion_War,5
+Africa,1999,Civil_War,10
+Africa,1999,Inter_country_War,1
+Africa,1999,Imperial_Invasion_War,0
+Africa,2000,Foreign_Invasion_War,3
+Africa,2000,Civil_War,11
+Africa,2000,Inter_country_War,1
+Africa,2000,Imperial_Invasion_War,0
+Africa,2001,Foreign_Invasion_War,3
+Africa,2001,Civil_War,13
+Africa,2001,Inter_country_War,0
+Africa,2001,Imperial_Invasion_War,0
+Africa,2002,Foreign_Invasion_War,2
+Africa,2002,Civil_War,13
+Africa,2002,Inter_country_War,0
+Africa,2002,Imperial_Invasion_War,0
+Africa,2003,Foreign_Invasion_War,1
+Africa,2003,Civil_War,11
+Africa,2003,Inter_country_War,0
+Africa,2003,Imperial_Invasion_War,0
+Africa,2004,Foreign_Invasion_War,1
+Africa,2004,Civil_War,9
+Africa,2004,Inter_country_War,0
+Africa,2004,Imperial_Invasion_War,0
+Africa,2005,Foreign_Invasion_War,1
+Africa,2005,Civil_War,7
+Africa,2005,Inter_country_War,0
+Africa,2005,Imperial_Invasion_War,0
+Africa,2006,Foreign_Invasion_War,2
+Africa,2006,Civil_War,8
+Africa,2006,Inter_country_War,0
+Africa,2006,Imperial_Invasion_War,0
+Africa,2007,Foreign_Invasion_War,1
+Africa,2007,Civil_War,11
+Africa,2007,Inter_country_War,0
+Africa,2007,Imperial_Invasion_War,0
+Africa,2008,Foreign_Invasion_War,2
+Africa,2008,Civil_War,10
+Africa,2008,Inter_country_War,1
+Africa,2008,Imperial_Invasion_War,0
+Africa,2009,Foreign_Invasion_War,3
+Africa,2009,Civil_War,10
+Africa,2009,Inter_country_War,0
+Africa,2009,Imperial_Invasion_War,0
+Africa,2010,Foreign_Invasion_War,4
+Africa,2010,Civil_War,6
+Africa,2010,Inter_country_War,0
+Africa,2010,Imperial_Invasion_War,0
+Africa,2011,Foreign_Invasion_War,5
+Africa,2011,Civil_War,10
+Africa,2011,Inter_country_War,0
+Africa,2011,Imperial_Invasion_War,0
+Africa,2012,Foreign_Invasion_War,5
+Africa,2012,Civil_War,7
+Africa,2012,Inter_country_War,1
+Africa,2012,Imperial_Invasion_War,0
+Africa,2013,Foreign_Invasion_War,7
+Africa,2013,Civil_War,7
+Africa,2013,Inter_country_War,0
+Africa,2013,Imperial_Invasion_War,0
+Africa,2014,Foreign_Invasion_War,7
+Africa,2014,Civil_War,7
+Africa,2014,Inter_country_War,0
+Africa,2014,Imperial_Invasion_War,0
+Africa,2015,Foreign_Invasion_War,10
+Africa,2015,Civil_War,11
+Africa,2015,Inter_country_War,0
+Africa,2015,Imperial_Invasion_War,0
+Africa,2016,Foreign_Invasion_War,8
+Africa,2016,Civil_War,13
+Africa,2016,Inter_country_War,1
+Africa,2016,Imperial_Invasion_War,0
+Africa,2017,Foreign_Invasion_War,10
+Africa,2017,Civil_War,9
+Africa,2017,Inter_country_War,0
+Africa,2017,Imperial_Invasion_War,0
+Africa,2018,Foreign_Invasion_War,11
+Africa,2018,Civil_War,10
+Africa,2018,Inter_country_War,0
+Africa,2018,Imperial_Invasion_War,0
+Africa,2019,Foreign_Invasion_War,17
+Africa,2019,Civil_War,9
+Africa,2019,Inter_country_War,0
+Africa,2019,Imperial_Invasion_War,0
+Africa,2020,Foreign_Invasion_War,17
+Africa,2020,Civil_War,13
+Africa,2020,Inter_country_War,0
+Africa,2020,Imperial_Invasion_War,0

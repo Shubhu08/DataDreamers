@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap -->
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="scripts/script.js"></script>
+
+  <link href="node_modules/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet" />
+  <script src="node_modules/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+
+  <script src="node_modules/topojson-client/dist/topojson-client.js"></script>
+  <script src="./node_modules/d3/dist/d3.min.js"></script>
+  <script src="./node_modules/d3-sankey/dist/d3-sankey.min.js"></script>
+
+  <!-- vega-lite -->
+  <script src="https://cdn.jsdelivr.net/npm/vega"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite-api"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-tooltip"></script>
+
+  <link rel="stylesheet" href="style/style.css" />
+
+  <script src="https://d3js.org/d3.v6.js"></script>
+
+  <title>Migration throughout the years</title>
+</head>
+
+<body class="bg-image" style="height:100vh ;
+  background-image: url('./img/bg.jpg');
+  background-size: cover;
+">
+
+
+  <!---Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <a class="navbar-brand active" href="index.html">Home</a>
+
+      <div id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Migration Visualization
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="btn-d3 dropdown-item" href="./dashboard.html#overview_pie_chart">World Migration Pattern</a></li>
+              <li><a class="btn-d3 dropdown-item" href="./dashboard.html#alluvial">Exploring Migration Flow from origin to destination continents</a></li>
+              <li><a class="btn-d3 dropdown-item" href="./dashboard.html#demographics">Exploring Income level of Destination Countries</a></li>
+              <li><a class="btn-d3 dropdown-item" href="./dashboard.html#choropleth">Exploring GDP affecting Net Migration across the globe</a></li>
+              <li><a class="btn-d3 dropdown-item" href="./dashboard.html#multiline">Exploring Wars affecting Net Migration across the globe</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="model.html">Migration Prediction</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="team-members.html">Team Members</a>
+          </li>
+      </div>
+    </nav>
+
+    <!-- Background image -->
+<div class="text-center">  
+  <h1 class="fixed-bottom m-5" style="color:white;font-size: 5vw;">Understanding Migration patterns through the years</h1>
+</div>
+
+
+    </body>
+    </html>
+    

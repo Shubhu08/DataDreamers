@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap -->
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <script src="./node_modules/d3/dist/d3.min.js"></script>
+  <script src="scripts/modelprediction.js"></script>
+
+  <link rel="stylesheet" href="style/style.css" />
+
+
+  <title>Migration throughout the years</title>
+</head>
+
+<body>
+  <!---Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <a class="navbar-brand" href="index.html">Home</a>
+
+    <div id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Migration Visualization
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="btn-d3 dropdown-item" href="./dashboard.html#overview_pie_chart">World Migration Pattern</a></li>
+            <li><a class="btn-d3 dropdown-item" href="./dashboard.html#alluvial">Exploring Migration Flow from origin to destination continents</a></li>
+            <li><a class="btn-d3 dropdown-item" href="./dashboard.html#demographics">Exploring Income level of Destination Countries</a></li>
+            <li><a class="btn-d3 dropdown-item" href="./dashboard.html#choropleth">Exploring GDP affecting Net Migration across the globe</a></li>
+            <li><a class="btn-d3 dropdown-item" href="./dashboard.html#multiline">Exploring Wars affecting Net Migration across the globe</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="model.html">Migration Prediction</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="team-members.html">Team Members</a>
+        </li>
+    </div>
+  </nav>
+
+  <div class="row text-center m-3">
+    <h2 class="">Data Description</h2>
+    <div class="col-lg-10 mx-auto">
+      <p>
+        We used the United Nations - Department of Economic and Social Affairs
+        (Population Division's) <a target="_blank" href="https://population.un.org/wpp/Download/Standard/MostUsed/"> standard most used</a> dataset.
+        The dataset consisted of continent, sub-region, country, income level, development level data from the year 1950-2101, with the data for the years
+        2022-2101 forecasted by the UN . We used the data from 1960 - 2020 to train and validate our prediction model and used our model to predict net migration rate for the years 2021-2050.
+      </p>
+    </div>
+  </div>
+
+  <div class="row text-center m-3">
+    <h2 class="">Model</h2>
+    <div class="col-lg-10 mx-auto">
+      <p>
+        We trained five different Prediction models namely, Linear Regressor, Lasso Regressor, Ridge Regressor, 
+        Random Forest Regressor and Support Vector Regressor (SVR), with our data from 1960 - 2020.
+        The respective Root Mean Squared Errors (RMSE) of the models on the Validation data can be seen in the below table. 
+        Since the Linear Regression model has the lowest RMSE, we are using this as the final prediction model on the test data. </p>
+
+      <p></p>
+        The final Linear Regressor model prediced Net Migration rate on the test data with a RMSE of <strong>0.0061</strong>.
+      </p>
+      <div class="row">
+        <table class="table table-hover">
+          <thead class="thead-dark table-primary">
+            <tr>
+              <th scope="col">Model</th>
+              <th scope="col">Linear Regression</th>
+              <th scope="col">Lasso Regressor</th>
+              <th scope="col">Ridge Regressor</th>
+              <th scope="col">SVR (Support Vector Regression)</th>
+              <th scope="col">Random Forest Regression</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Validation RMSE</th>
+              <td><strong>0.01146</strong></td>
+              <td>2.31936</td>
+              <td>0.01150</td>
+              <td>0.6548</td>
+              <td>87.69</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="row">
+        <h4>Predict net migration for a country of your choice</h4>
+        <form onsubmit="modelRegPredict(event); return false">
+          <div class="row .d-inline-flex align-items-stretch">
+            <div class="col-5">
+              <input class="form-control" list="countryOptions" id="modelRegCountry" placeholder="Select Country"
+                required>
+              <datalist id="countryOptions">
+                <option value="Afghanistan">
+                <option value="Albania">
+                <option value="Algeria">
+                <option value="American Samoa">
+                <option value="Andorra">
+                <option value="Angola">
+                <option value="Antigua and Barbuda">
+                <option value="Argentina">
+                <option value="Armenia">
+                <option value="Aruba">
+                <option value="Australia">
+                <option value="Austria">
+                <option value="Azerbaijan">
+                <option value="Bahamas">
+                <option value="Bahrain">
+                <option value="Bangladesh">
+                <option value="Barbados">
+                <option value="Belarus">
+                <option value="Belgium">
+                <option value="Belize">
+                <option value="Benin">
+                <option value="Bermuda">
+                <option value="Bhutan">
+                <option value="Bolivia">
+                <option value="Bosnia and Herzegovina">
+                <option value="Botswana">
+                <option value="Brazil">
+                <option value="British Virgin Islands">
+                <option value="Brunei Darussalam">
+                <option value="Bulgaria">
+                <option value="Burkina Faso">
+                <option value="Burundi">
+                <option value="Cabo Verde">
+                <option value="Cambodia">
+                <option value="Cameroon">
+                <option value="Canada">
+                <option value="Cayman Islands">
+                <option value="Central African Republic">
+                <option value="Chad">
+                <option value="Chile">
+                <option value="China">
+                <option value="Colombia">
+                <option value="Comoros">
+                <option value="Dem. Rep. Congo">
+                <option value="Congo">
+                <option value="Costa Rica">
+                <option value="Cote d'Ivoire">
+                <option value="Croatia">
+                <option value="Cuba">
+                <option value="Curaçao">
+                <option value="Cyprus">
+                <option value="Czechia">
+                <option value="Denmark">
+                <option value="Djibouti">
+                <option value="Dominica">
+                <option value="Dominican Republic">
+                <option value="Ecuador">
+                <option value="Egypt">
+                <option value="El Salvador">
+                <option value="Equatorial Guinea">
+                <option value="Eritrea">
+                <option value="Estonia">
+                <option value="Eswatini">
+                <option value="Ethiopia">
+                <option value="Faroe Islands">
+                <option value="Fiji">
+                <option value="Finland">
+                <option value="France">
+                <option value="French Polynesia">
+                <option value="Gabon">
+                <option value="Gambia">
+                <option value="Georgia">
+                <option value="Germany">
+                <option value="Ghana">
+                <option value="Gibraltar">
+                <option value="Greece">
+                <option value="Greenland">
+                <option value="Grenada">
+                <option value="Guam">
+                <option value="Guatemala">
+                <option value="Guinea">
+                <option value="Guinea-Bissau">
+                <option value="Guyana">
+                <option value="Haiti">
+                <option value="Honduras">
+                <option value="Hong Kong SAR, China">
+                <option value="Hungary">
+                <option value="Iceland">
+                <option value="India">
+                <option value="Indonesia">
+                <option value="Iran">
+                <option value="Iraq">
+                <option value="Ireland">
+                <option value="Isle of Man">
+                <option value="Israel">
+                <option value="Italy">
+                <option value="Jamaica">
+                <option value="Japan">
+                <option value="Jordan">
+                <option value="Kazakhstan">
+                <option value="Kenya">
+                <option value="Kiribati">
+                <option value="North Korea">
+                <option value="Kosovo">
+                <option value="Kuwait">
+                <option value="Kyrgyzstan">
+                <option value="Laos">
+                <option value="Latvia">
+                <option value="Lebanon">
+                <option value="Lesotho">
+                <option value="Liberia">
+                <option value="Libya">
+                <option value="Liechtenstein">
+                <option value="Lithuania">
+                <option value="Luxembourg">
+                <option value="Macao SAR, China">
+                <option value="Madagascar">
+                <option value="Malawi">
+                <option value="Malaysia">
+                <option value="Maldives">
+                <option value="Mali">
+                <option value="Malta">
+                <option value="Marshall Islands">
+                <option value="Mauritania">
+                <option value="Mauritius">
+                <option value="Mexico">
+                <option value="Micronesia (Fed. States of)">
+                <option value="Monaco">
+                <option value="Mongolia">
+                <option value="Montenegro">
+                <option value="Morocco">
+                <option value="Mozambique">
+                <option value="Myanmar">
+                <option value="Namibia">
+                <option value="Nauru">
+                <option value="Nepal">
+                <option value="Netherlands">
+                <option value="New Caledonia">
+                <option value="New Zealand">
+                <option value="Nicaragua">
+                <option value="Niger">
+                <option value="Nigeria">
+                <option value="Macedonia">
+                <option value="Northern Mariana Islands">
+                <option value="Norway">
+                <option value="Oman">
+                <option value="Pakistan">
+                <option value="Palau">
+                <option value="Panama">
+                <option value="Papua New Guinea">
+                <option value="Paraguay">
+                <option value="Peru">
+                <option value="Philippines">
+                <option value="Poland">
+                <option value="Portugal">
+                <option value="Puerto Rico">
+                <option value="Qatar">
+                <option value="South Korea">
+                <option value="Moldova">
+                <option value="Romania">
+                <option value="Russia">
+                <option value="Rwanda">
+                <option value="Samoa">
+                <option value="San Marino">
+                <option value="Sao Tome and Principe">
+                <option value="Saudi Arabia">
+                <option value="Senegal">
+                <option value="Serbia">
+                <option value="Seychelles">
+                <option value="Sierra Leone">
+                <option value="Singapore">
+                <option value="Sint Maarten (Dutch part)">
+                <option value="Slovakia">
+                <option value="Slovenia">
+                <option value="Solomon Islands">
+                <option value="Somalia">
+                <option value="South Africa">
+                <option value="South Sudan">
+                <option value="Spain">
+                <option value="Sri Lanka">
+                <option value="St. Kitts and Nevis">
+                <option value="St. Lucia">
+                <option value="St. Martin (French part)">
+                <option value="St. Vincent and the Grenadines">
+                <option value="Sudan">
+                <option value="Suriname">
+                <option value="Sweden">
+                <option value="Switzerland">
+                <option value="Syria">
+                <option value="Tajikistan">
+                <option value="Thailand">
+                <option value="Timor-Leste">
+                <option value="Togo">
+                <option value="Tonga">
+                <option value="Trinidad and Tobago">
+                <option value="Tunisia">
+                <option value="Turkey">
+                <option value="Turkmenistan">
+                <option value="Turks and Caicos Islands">
+                <option value="Tuvalu">
+                <option value="Uganda">
+                <option value="Ukraine">
+                <option value="United Arab Emirates">
+                <option value="United Kingdom">
+                <option value="Tanzania">
+                <option value="United States of America">
+                <option value="Uruguay">
+                <option value="Uzbekistan">
+                <option value="Vanuatu">
+                <option value="Venezuela">
+                <option value="Vietnam">
+                <option value="Virgin Islands (U.S.)">
+                <option value="Yemen">
+                <option value="Zambia">
+                <option value="Zimbabwe">
+              </datalist>
+            </div>
+            <div class="col-5">
+              <input class="form-control" list="yearOptions" id="modelRegYear" placeholder="Select Year" required>
+              <datalist id="yearOptions">
+                <option value="2021">
+                  <option value="2022">
+                  <option value="2023">
+                  <option value="2024">
+                  <option value="2025">
+                  <option value="2026">
+                  <option value="2027">
+                  <option value="2028">
+                  <option value="2029">
+                  <option value="2030">
+                  <option value="2031">
+                  <option value="2032">
+                  <option value="2033">
+                  <option value="2034">
+                  <option value="2035">
+                  <option value="2036">
+                  <option value="2037">
+                  <option value="2038">
+                  <option value="2039">
+                  <option value="2040">
+                  <option value="2041">
+                  <option value="2042">
+                  <option value="2043">
+                  <option value="2044">
+                  <option value="2045">
+                  <option value="2046">
+                  <option value="2047">
+                  <option value="2048">
+                  <option value="2049">
+                  <option value="2050">
+              </datalist>
+            </div>
+            <div class="col d-grid">
+              <button type="submit" class="btn btn-primary btn-block">Predict</button>
+            </div>
+          </div>
+        </form>
+        <div class="row">
+          <h5>Predicted Net Migration Rate (%) <span id="modelRegResult" style="font-size: 50px; color:#f28e2c; vertical-align: middle;"></span></h5>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+</body>
+
+</html>

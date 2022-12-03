@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap -->
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <script src="scripts/script.js"></script>
+
+  <link href="node_modules/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet" />
+  <script src="node_modules/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+
+  <script src="node_modules/topojson-client/dist/topojson-client.js"></script>
+  <script src="./node_modules/d3/dist/d3.min.js"></script>
+  <script src="./node_modules/d3-sankey/dist/d3-sankey.min.js"></script>
+
+  <!-- vega-lite -->
+  <script src="https://cdn.jsdelivr.net/npm/vega"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite-api"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-tooltip"></script>
+
+  <link rel="stylesheet" href="style/style.css" />
+
+  <script src="https://d3js.org/d3.v6.js"></script>
+
+  <title>Migration throughout the years</title>
+</head>
+
+<body>
+
+
+  <!---Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <a class="navbar-brand" href="index.html">Home</a>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Migration Visualization
+            </a>
+            <ul class="dropdown-menu">
+                <li><a class="btn-d3 dropdown-item" href="./dashboard.html#overview_pie_chart">World Migration Pattern</a></li>
+                <li><a class="btn-d3 dropdown-item" href="./dashboard.html#alluvial">Exploring Migration Flow from origin to destination continents</a></li>
+                <li><a class="btn-d3 dropdown-item" href="./dashboard.html#demographics">Exploring Income level of Destination Countries</a></li>
+                <li><a class="btn-d3 dropdown-item" href="./dashboard.html#choropleth">Exploring GDP affecting Net Migration across the globe</a></li>
+                <li><a class="btn-d3 dropdown-item" href="./dashboard.html#multiline">Exploring Wars affecting Net Migration across the globe</a></li>
+              </ul>
+            </li>
+          <li class="nav-item">
+            <a class="nav-link" href="model.html">Migration Prediction</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="team-members.html">Team Members</a>
+          </li>
+      </div>
+    </nav>
+
+    <!--- Description of Project -->
+    <!--
+    <div class="row section">
+      <div class="text-center">
+        <h2>Migration</h2>
+        <div class="col-lg-10 mx-auto">
+          <p class="">
+            Since the earliest times, humanity has been on the move. Some people move in search of work or economic opportunities,
+            to join family, or to study. Others move to escape conflict, persecution, terrorism, or human rights violations. Still
+             others move in response to the adverse effects of climate change, natural disasters, or other environmental factors.
+             Today, more people than ever live in a country other than the one in which they were born. According to the<a target="_blank" href="https://publications.iom.int/system/files/pdf/wmr_2020.pdf">IOM World Migration Report 2020</a>as of June 2019 the number of international migrants was estimated to be almost 272 million globally, 51 million more than in 2010.
+             While many individuals migrate out of choice, many others migrate out of necessity. According to the<a target="_blank" href="https://www.unhcr.org/en-us/figures-at-a-glance.html">UNHCR</a>,the number of globally 
+             forcibly displaced people worldwide was 79.5 million at the end of 2019.
+          </p>
+        </div>
+      </div>
+    </div> -->
+    <!--- Charts -->
+    <div class="container">
+      <div class="row section " id="overview_pie_chart">
+        <div class="row text-center">
+          <h2>World Migration Pattern<h2 id="overview-year-title">2020</h2>
+          </h2>
+          <p class="">
+            Since the earliest times, humanity has been on the move. Some people move in search of work or economic
+            opportunities,
+            to join family, or to study. Others move to escape conflict, persecution, terrorism, or human rights
+            violations. Still
+            others move in response to the adverse effects of climate change, natural disasters, or other environmental
+            factors.
+            Today, more people than ever live in a country other than the one in which they were born. According to
+            the<a target="_blank" href="https://publications.iom.int/system/files/pdf/wmr_2020.pdf"> IOM World Migration
+              Report 2020 </a>as of June 2019 the number of international migrants was estimated to be almost 272
+            million globally, 51 million more than in 2010.
+            While many individuals migrate out of choice, many others migrate out of necessity. According to the<a
+              target="_blank" href="https://www.unhcr.org/en-us/figures-at-a-glance.html"> UNHCR </a>,the number of
+            globally
+            forcibly displaced people worldwide was 79.5 million at the end of 2019.
+          </p>
+          <p>We have curated this dashboard, to present a timeline of people movement over the years from 1990 to 2020.
+            We explore which continent has seen most people moving out, the destination continents they are choosing to move and the possible
+            factors like income parity, gender ratio, GDP, war-peace situations of those countries affecting these
+            migrations. Below you can see, ASIA is the top continent to see the most number of people moving out and this trend is 
+            consistent over all the years.
+            <!--We also built a prediction model with a RMSE value of 0.0063, based on the UN data, that is predicting the
+            net migration rate across the countries from 2021-2050. --> </p>
+        </div>
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <div class="text-center">
+            <label for="overview-year" id="overview-year-scroll-title">Year 2020</label>
+            <input type="range" class="form-range" value="2020" min="1990" max="2020" step="5" id="overview-year"
+              oninput="updateOverviewYear()">
+            </div>
+            <script src="./scripts/overview_pie.js"></script>
+            <div class="row">
+              <div class="col-1"></div>
+              <div class="col-sm">
+                <svg id="overview_chart"></svg>
+              </div>
+              <div class="col-sm distribute">
+                <p style="font-size: 12px; margin-bottom: 0px;"><b><span id="asia_span"
+                      style="font-size: 50px; color:#f28e2c;"></span></b> migranted from <b
+                    style="font-size: 40px; color:#f28e2c;">Asia</b></p>
+                <p style="font-size: 12px; margin-bottom: 0px;"><b><span id="europe_span"
+                      style="font-size: 40px; color:#e15759;"></span></b> migranted from <b
+                    style="font-size: 30px; color: #e15759;">Europe</b></p>
+                <p style="font-size: 12px; margin-bottom: 0px;"><b><span id="latin_span"
+                      style="font-size: 35px; color:#76b7b2; "></span></b>
+                  migranted from <b style="font-size: 25px; color: #76b7b2;">Latin America</b>
+                </p>
+                <p style="font-size: 12px; margin-bottom: 0px;"><b><span id="africa_span"
+                      style="font-size: 30px; color:#4e79a7;"></span></b> migranted from <b
+                    style="font-size: 20px; color: #4e79a7;">Africa</b></p>
+                <p style="font-size: 12px; margin-bottom: 0px;"><b><span id="us_span"
+                      style="font-size: 25px; color:#59a14f;"></span></b> migranted from <b
+                    style="font-size: 20px; color:#59a14f;">North America</b></p>
+                <p style="font-size: 12px; margin-bottom: 0px;"><b><span id="oceania_span"
+                      style="font-size: 20px; color:#edc949;"></span></b> migranted from <b
+                    style="color: #edc949;">Oceania</b></p>
+                <!-- text-shadow: 1px 1px 5px #919191; -->
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="row section " id="alluvial">
+        <div class="text-center">
+          <div class="col-lg-10 mx-auto">
+            <h2>Exploring Migration Flow from origin to destination continents</h2>
+            <p>
+              Where are the people from Asia moving to? What are their top destinations?
+              Is there a pattern in choosing a destination? Is this trend followed over the years? 
+              These are some of the questions that the below Sankey & Line Chart explains. Over the years, we see a sizeable 
+              portion of migration within the continent of Asia followed by Europe and Northern America. So proximity
+            of a destination definitely plays a role in choosing to migrate there, but it is not the most important factor otherwise we
+          would have seen big number of people moving from Asia to Africa too.  </p>
+            <p style="color:gray">
+              **Play to explore for other continents over the years!**
+              
+            </p>
+          </div>
+          <div class="col-lg-12 mx-auto">
+            <div class="row">
+              <div class="col-12 col-sm">
+                <label for="sankey-title" id="sankey-title-year">Year 2020</label>
+                <input type="range" class="form-range" value="2020" min="1990" max="2020" step="5" id="sankey-title"
+                  oninput="updateTextInputSankey(this.value);">
+
+                <div class="row">
+                  <div class="col col-sm">
+                    <label for="alluvial-select">Origin Continents</label>
+                    <select class="form-control" id="alluvial-select" name="alluvial-select"
+                      aria-label="Select Continents">
+                      <optgroup label="Origin">
+                        <!-- <option value='All'>All Continents</option> -->
+
+                        <!-- <optgroup label="Africa"> -->
+                        <option value="AFRICA">Africa</option>
+                        <option selected value="ASIA">Asia</option>
+                        <option value="NORTHERN AMERICA">Northern America</option>
+                        <option value="LATIN AMERICA AND THE CARIBBEAN">Latin America and the Caribbean</option>
+                        <option value="EUROPE">Europe</option>
+                        <option value="OCEANIA">Oceania</option>
+                      </optgroup>
+                    </select>
+                  </div>
+                  <div class="col col-sm">
+                    <label for="alluvial-select1">Destination Continents</label>
+                    <select class="form-control" id="alluvial-select1" name="alluvial-select1"
+                      aria-label="Select Continents">
+                      <optgroup label="Destination">
+                        <option selected value="WORLD">All Continents</option>
+                      </optgroup>
+                      <option value="AFRICA">Africa</option>
+                      <option value="ASIA">Asia</option>
+                      <option value="NORTHERN AMERICA">Northern America</option>
+                      <option value="LATIN AMERICA AND THE CARIBBEAN">Latin America and the Caribbean</option>
+                      <option value="EUROPE">Europe</option>
+                      <option value="OCEANIA">Oceania</option>
+
+                    </select>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-6 col-sm">
+                    <h5 id="sankey-chart-title">Migrants flow from Asia</h5>
+                    <svg id="sankey-chart"></svg>
+                  </div>
+                  <div class="col-lg-6 col-sm">
+                    <h5 id="sankey-kpi-title">Net Migration from Asia</h5>
+                    <svg id="sankey-chart-kpi"></svg>
+                  </div>
+                  <script src="scripts/sankey.js"></script>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row section" id="demographics">
+        <div class="text-center">
+          <div class="col-lg-10 mx-auto">
+            <h2 class="text-center"> Exploring Income level of Destination Countries</h2>
+            <p>
+              If proximity of a destination is not the most important factor in choosing a destination, then let us explore 
+              if economic status of a region is important. We see from the below donut chart that 65% of migrants move to high income countries and only 4% to low income countries.
+              We also see that the average age of migrants are 25-40 years, which makes them useful human resources to any high income/developed country
+              which justify that 65% of migrants move there.          
+            </p>
+
+          </div>
+
+          <div class="row">
+            <div class="row">
+              <label class="text-center" for="year" id="year_span">Year 2020</label>
+              <input type="range" class="form-range" value="2020" min="1990" max="2020" step="5" id="year">
+            </div>
+
+            <script type="module" src="./scripts/demographics.js"></script>
+
+            <div class="row">
+
+              <div class="col-lg-6 col-sm text-center">
+                <div class="col-11 text-center">
+                  <p style="font-size: 12px; margin-bottom: 0px;"> <b><span id="age_span"
+                        style="font-size: 40px; color: black;">25-40</span>years</b> is the most common <b
+                      style="color: rgb(0, 0, 0);">age group</b> of migrants</p>
+                </div>
+                <div id="faceted_bar_chart"></div>
+              </div>
+
+              <div class="col-lg-6 col-sm">
+                <div class="row">
+                  <div class="col-7 distribute" style="border-left: 1px solid lightgrey;">
+                    <p style="font-size: 12px; margin-bottom: 0px;"><b><span id="Hregion_span"
+                          style="font-size: 40px; color:rgb(127, 201, 127);"></span></b> migrants go to <b
+                        style="color: rgb(127, 201, 127);">High Income Region</b></p>
+                    <p style="font-size: 12px; margin-bottom: 0px;"><b><span id="Mregion_span"
+                          style="font-size: 30px; color:rgb(253, 192, 134);"></span></b> migrants go to <b
+                        style="color: rgb(253, 192, 134);">Middle Income Region</b></p>
+                    <p style="font-size: 12px; margin-bottom: 0px;"><b><span id="Lregion_span"
+                          style="font-size: 20px; color:rgb(190, 174, 212);"></span></b> migrants go to <b
+                        style=" color: rgb(190, 174, 212);">Low Income Region</b></p>
+                  </div>
+                  <div class="col-4">
+                    <svg id="region_chart"></svg>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-7 distribute" style="border-left: 1px solid lightgrey;">
+                    <p style="font-size: 12px; margin-bottom: 0px;"><b><span id="male_span"
+                          style="font-size: 40px; color:rgb(255, 127, 14);"></span></b> migrants were <b
+                        style="font-size: 20px;  color: rgb(255, 127, 14);"> Male</b></p>
+                    <p style="font-size: 12px; margin-bottom: 0px;"><b><span id="female_span"
+                          style="font-size: 30px; color:rgb(31, 119, 180);"></span></b> migrants were<b
+                        style="font-size: 20px; color: rgb(31, 119, 180);"> Female</b></p>
+                  </div>
+                  <div class="col-4">
+                    <svg id="gender_chart"></svg>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row section" id="choropleth">
+        <div class="text-center">
+          <div class="col-lg-10 mx-auto">
+            <h2>Exploring GDP affecting Net Migration across the globe</h2>
+            <p> When we talk about the economic level of a country, the Gross Domestic Product (GDP) comes into the picture. The below
+              choropleth chart shows the country that has hosted the most migrants and their respective GDPs over the years. We consistently 
+              see that the United States is the most preferred destination for migrants over the years which can be attributed to it's 
+              consistently high GDP. But we also see a country like Iran having much less GDP is the second most migrated destination in the year 1990,
+              which brings in the social stability and war-peace conditions of neighbouring countries one of the most important factor behind forced migration.
+
+            </p>
+          </div>
+          <div class="col-lg-12 mx-auto">
+            <div class="row">
+              <div class="col-lg-8 col-sm">
+                <label for="choropleth-year" class="form-label" id="choropleth-title">Showing the migration trends for
+                  the
+                  year 2020</label>
+                <input type="range" class="form-range" value="2020" min="1990" max="2020" step="5" id="choropleth-year"
+                  oninput="updateTextInput(this.value);">
+                <svg class="chart" id="choropleth-chart"></svg>
+              </div>
+              <div class="col-lg-4 col-sm align-self-stretch">
+                <div class="row">
+                  <h5>Total number of immigrants in Top 3 countries that gained migrants</h5>
+                  <svg id="choropleth-kpi-nm"></svg>
+                </div>
+                <div class="row">
+                  <h5>GDP of Top 3 countries that gained migrants</h5>
+                  <svg id="choropleth-kpi-gdp"></svg>
+                </div>
+              </div>
+            </div>
+            <script src="scripts/choropleth.js"></script>
+          </div>
+        </div>
+      </div>
+
+      <div class="row section" id="multiline">
+        <div class="text-center">
+          <div class="col-lg-10 mx-auto">
+            <h2>Exploring Wars affecting Net Migration across the globe</h2>
+            <p>The factors like civil wars, inter-country wars, foreign invasion wars are the causes of forced migration from a war-stricken region to a peaceful region.
+              The stacked area chart below shows the number of war related deaths in the continent of
+               Asia and the line chart below shows the net migration numbers for the Asian countries over the years.
+
+               <p style="color:gray">**Play to explore for other continents over the years!**</p>
+            </p>
+          </div>
+          <div class="col-lg-12 mx-auto">
+            <div class="row">
+              <div class="col">
+                <label for="multiline-continent">Select Continent</label>
+                <select class="form-control" id="multiline-continent" name="multiline-continent"
+                  aria-label="Select Continent">
+                  <optgroup label="Continent">
+                    <option value='All'>All</option>
+                    <option value="Europe">Europe</option>
+                    <option selected value="Asia">Asia</option>
+                    <option value="Northern America">Northern America</option>
+                    <option value="Latin America and the Caribbean">Latin America and the Caribbean</option>
+                    <option value="Africa">Africa</option>
+                  </optgroup>
+                </select>
+              </div>
+              <div class="col">
+                <label for="multiline-continent">Select</label>
+                <select class="form-control" id="multiline-amount" name="multiline-amount" aria-label="Amount">
+                  <optgroup label="Amount">
+                    <option value='All'>All</option>
+                    <option selected value="5">5</option>
+                    <option value="10">10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                  </optgroup>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 col-sm">
+                <h5>War Deaths Over Years</h5>
+                <svg id="stacked_area"></svg>
+              </div>
+              <div class="col-lg-6 col-sm">
+                <h5>Net Migration For Countries</h5>
+                <svg id="multiline-chart"></svg>
+              </div>
+              <script src="scripts/multiline.js"></script>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+</body>
+
+</html>

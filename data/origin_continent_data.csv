@@ -1,0 +1,43 @@
+Continent,Year,migrant_count
+Africa,1990,20621464
+Africa,1995,22341394
+Africa,2000,22080003
+Africa,2005,25241406
+Africa,2010,29193852
+Africa,2015,35111959
+Africa,2020,40567163
+Asia,1990,56957000
+Asia,1995,59147922
+Asia,2000,65333613
+Asia,2005,72806043
+Asia,2010,88122177
+Asia,2015,103378019
+Asia,2020,114911484
+Europe,1990,47730278
+Europe,1995,48636003
+Europe,2000,49727784
+Europe,2005,51336984
+Europe,2010,54711301
+Europe,2015,56577753
+Europe,2020,63273663
+Latin America and the Caribbean,1990,15273399
+Latin America and the Caribbean,1995,19669704
+Latin America and the Caribbean,2000,24628700
+Latin America and the Caribbean,2005,29338206
+Latin America and the Caribbean,2010,34637650
+Latin America and the Caribbean,2015,36206000
+Latin America and the Caribbean,2020,42890481
+Northern America,1990,2802135
+Northern America,1995,2946161
+Northern America,2000,3149919
+Northern America,2005,3512106
+Northern America,2010,3969803
+Northern America,2015,4014649
+Northern America,2020,4327958
+Oceania,1990,961547
+Oceania,1995,1071295
+Oceania,2000,1246836
+Oceania,2005,1391418
+Oceania,2010,1591168
+Oceania,2015,1751422
+Oceania,2020,1970205

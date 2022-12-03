@@ -1,0 +1,60 @@
+
+div {
+    padding: 0.5em
+}
+
+.chart {
+    width: 90%;
+    height: 450px
+}
+
+div.card {
+    margin: 2em;
+}
+
+.navbar>a {
+    padding: 0em 2em 0em 2em;
+}
+
+img.team {
+    height: 15em;
+    object-fit: cover;
+}
+
+div.writeup {
+    text-align: center;
+    width: 75%;
+}
+
+.counties {
+    fill: none;
+    stroke-width: 1px;
+}
+
+.states {
+    fill: none;
+    stroke: #fff;
+    stroke-linejoin: round;
+}
+
+.selected {
+    stroke: red;
+    stroke-width: 2px;
+}
+
+.cities {
+    fill: whitesmoke;
+    stroke: #666;
+
+}
+
+.section {
+    scroll-margin-top: 70px;
+}
+
+.distribute {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
